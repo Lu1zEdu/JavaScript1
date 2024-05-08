@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form{
+    display: flex;
+    padding: 10px;
+    margin: auto;
+    justify-content: center;
+    #idEmail:hover{
+        width: auto;
+        padding: auto;
+        background-color: aquamarine;
+        border: 17px rebeccapurple solid;
+        transition: 2s;
+        cursor: pointer;
+    }
+    #idSenha:hover{
+        width: auto;
+        padding: auto;
+        background-color: aquamarine;
+        border: 17px rebeccapurple solid;
+        transition: 2s;
+        cursor: pointer;
+    }
+    #idLembrar:hover{
+        width: auto;
+        padding: auto;
+        background-color: aquamarine;
+        border: 17px rebeccapurple solid;
+        transition: 2s;
+        cursor: pointer;
+    }
+    #button:hover{
+        margin: auto;
+        padding: auto;
+        background-color: aquamarine;
+        border: 17px rebeccapurple solid;
+        transition: 2s;
+        cursor: pointer;
+    }
+}
